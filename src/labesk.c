@@ -3,6 +3,7 @@
 
 int main() {
     // BY SKAYLATK
+    // HTTPS://GITHUB.COM/SKAYLATK/LABESK
     printf("\033[31m");
     int i = 1;
     char fname[40];
