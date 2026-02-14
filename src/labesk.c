@@ -14,6 +14,8 @@ int main() {
         int *m2 = malloc(1000000);
         int *m3 = malloc(1000000);
         int *m4 = malloc(1000000);
+        int *m5 = malloc(1000000);
+        int *m6 = malloc(1000000);
         printf("\aYOU ARE AN IDIOT \t");
         sprintf(fname, "LABESK%d.text", i);
         FILE *f;
